@@ -7,5 +7,12 @@ public class Main {
         System.out.println(myPerson.toString());
 
         Customer myCustomer = new Customer();
+
+        Customer myCustomer2 = new Customer("aidan", "ennis", "254", "123", true);
+
+        System.out.println(myCustomer2.toString());
+
+
+
     }
 }
