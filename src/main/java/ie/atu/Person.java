@@ -13,8 +13,10 @@ public class Person {
         this.userNumber = "";
     }
 
-    public Person(String name) {
-
+    public Person(String name, String userAddress, String userNumber) {
+        this.name = name;
+        this.userAddress = userAddress;
+        this.userNumber = userNumber;
     }
 
     public String getName() {
